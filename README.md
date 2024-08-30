@@ -22,6 +22,39 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+# Capacitor
+
+This project also builds android and ios application with the help of capacitor framework
+
+## Run Capacitor Sync
+
+Run the following command to sync your project with Capacitor to update any changes:
+```bash
+npx cap sync
+```
+
+## Run the Project on  Android Studio:
+
+### For Android:
+```bash
+npx cap open android
+```
+Open Android Studio and run the project on your connected device.
+
+### For iOS:
+```bash
+npx cap open ios
+```
+Open Xcode and run the project on your connected device.
+
+## Run the mobile application:
+
+### For Android:
+```bash
+npx cap run android    // For android
+npx cap run ios        // For ios
+```
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
