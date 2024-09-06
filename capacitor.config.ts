@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'angular-capacitor-app',
   webDir: 'dist',
   server: {
-    url: 'http://192.168.1.34:4200',
+    url: 'http://192.168.1.30:4200',
     cleartext: true
   }
 } 
