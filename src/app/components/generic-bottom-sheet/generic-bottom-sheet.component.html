@@ -1,0 +1,8 @@
+<p>generic-bottom-sheet works!</p>
+<div>
+    <ng-container *ngIf="data">
+        <h2>{{ data.title }}</h2>
+        <div [innerHTML]="data.content"></div>
+    </ng-container>
+    <button mat-button (click)="closeSheet()">Close</button>
+</div>
